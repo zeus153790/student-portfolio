@@ -101,3 +101,10 @@ This project demonstrates the following GitHub features:
 - Add more advanced animations and interactive CSS transitions.
 - Expand the portfolio with individual case studies for each project.
 
+
+## 🔮 Future Roadmap
+
+- Integrate a contact message form sending emails directly.
+- Add more advanced animations and interactive CSS transitions.
+- Expand the portfolio with individual case studies for each project.
+
