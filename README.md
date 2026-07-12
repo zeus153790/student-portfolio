@@ -94,3 +94,10 @@ This project demonstrates the following GitHub features:
 ---
 
 *Built with ❤️ for Software Engineering course at UNIMY — 2025*
+
+## 🔮 Future Roadmap
+
+- Integrate a contact message form sending emails directly.
+- Add more advanced animations and interactive CSS transitions.
+- Expand the portfolio with individual case studies for each project.
+
