@@ -70,41 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
   reveals.forEach(el => revealObs.observe(el));
 
 
-  /* ─── Number Counter Animation ──────────────────── */
-  let countersDone = false;
-  const counters = document.querySelectorAll('.counter-num');
-
-  function runCounters() {
-    if (countersDone) return;
-    countersDone = true;
-    counters.forEach(el => {
-      const target = +el.dataset.target;
-      let current  = 0;
-      const step   = target / 60; // ~60 frames
-      const tick = () => {
-        current += step;
-        if (current < target) {
-          el.textContent = Math.ceil(current);
-          requestAnimationFrame(tick);
-        } else {
-          el.textContent = target;
-        }
-      };
-      tick();
-    });
-  }
-
-  const heroSection = document.getElementById('hero');
-  const counterObs = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        runCounters();
-        counterObs.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.3 });
-  counterObs.observe(heroSection);
-
 
   /* ─── Services Accordion ────────────────────────── */
   const serviceItems = document.querySelectorAll('.service-item');
