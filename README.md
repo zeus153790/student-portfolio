@@ -62,10 +62,10 @@ student-portfolio/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/zeus153790/TestForProject.git
+   git clone https://github.com/zeus153790/student-portfolio.git
    ```
 2. Open `index.html` in any web browser.
-3. Or visit the live deployed link: `https://TestForProject.vercel.app` (or Vercel link)
+3. Or visit the live deployed link: `https://student-portfolio.vercel.app` (or Vercel link)
 
 ## 📝 GitHub Usage
 
